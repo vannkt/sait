@@ -1,0 +1,32 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the navigation bar */
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff0000;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background color on hover */
+  .navbar li a:hover {
+    background-color: #000000;
+  }
+  

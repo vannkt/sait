@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reservation.css">
+    <title>Резервация</title>
+</head>
+<body>
+   
+    <div class="center-container">
+        <h1>Резервация за преглед</h1>
+        <form id="form" action="php/database.php" method="post">
+            <div class="field">
+                <label for="from_name">Три Имена</label>
+                <input type="text" name="names" id="from_name">
+            </div>
+            <div class="field">
+                <label for="datetime">Дата и Час</label>
+                <input type="datetime-local" name="date" id="datetime">
+            </div>
+            <div class="field">
+                <label for="phone_id">Телефон</label>
+                <input type="phone" name="phone" id="phone_id">
+            </div>
+            <div class="field">
+                <label for="message">Марка и Модел Кола</label>
+                <input type="text" name="car" id="message">
+            </div>
+            <input type="submit" id="button" value="Направи Резервация">
+        </form>
+    </div>
+</body>
+</html>
